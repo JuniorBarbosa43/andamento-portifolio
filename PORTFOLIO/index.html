@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Front</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <main id="home">
+        <div class="container">
+            <div class="icons">
+                <a href=""><ion-icon name="logo-whatsapp"></ion-icon></a>
+                <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href=""><ion-icon name="logo-github"></ion-icon></a>
+                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+            <div class="title">
+                <h1>Front-End</h1>
+                <h2>developer</h2>
+                <h3>Freelancer</h3>
+            </div>
+        </div>
+    </main>
+    
+    
+    <section id="port">
+        <div class="container">
+
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                    <img src="image/Captura de tela 2023-07-25 225429.png" alt="">
+                    <h1>WeHost</h1>
+                    <p><STRong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero assumenda eos magni porro quisquam autem? Veritatis eius magni corporis, porro optio ducimus blanditiis sed dolores at aperiam beatae vero sint.</STRong></p>
+                    <button>Hire me</button>
+                </label>
+
+                <label class="card" for="item-2" id="song-2">
+                    <img src="image/Captura de tela 2023-07-25 225924.png" alt="">
+                    <h1>Design</h1>
+                    <p><STRong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero assumenda eos magni porro quisquam autem? Veritatis eius magni corporis, porro optio ducimus blanditiis sed dolores at aperiam beatae vero sint.</STRong></p>
+                    <button>Hire me</button>
+                </label>
+
+               
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="contact">
+        <div class="container">
+            <div class="content-contact">
+                <div class="contact-left">
+                    <h1>Contate-me</h1>
+                    <div class="linha"></div>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span>anderson.bjr43@gmail.com</span>
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span>+55 99 99196-9311</span>
+                    <ion-icon name="location-outline"></ion-icon>
+                    <span>Bauru,SP</span>
+                </div>
+                <div class="contact-right">
+                    <h1>Fill the form</h1>
+                    <div class="linha"></div>
+                    <input type="email" placeholder="E-mail">
+                    <input type="text" placeholder="Name">
+                    <textarea placeholder="Message"></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span>Copyright 2023 All Rights Reserved</span>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn-mobile").click(function(){
+                $(".menu-mobile").slideToggle("slow")
+            })
+        })
+    </script>
+</body>
+</html>
